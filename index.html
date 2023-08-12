@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Balloons</title>
+</head>
+<body>
+    <div class="balloon balloon-yellow"></div> 
+    <div class="score-block">
+        <p>You popped <span class="score">0</span> balloons</p>
+    </div>
+    <div class="total-shadow">
+        <div class="total-block">
+            <div class="total-wrapper win">
+                <h4>Congratulations</h4>
+                <img src="images/happy.png" alt="winner">
+                <h4>You popped all 100 balloons! Great job!</h4>
+                <p>You are a champion!</p>
+            </div>
+            <div class="total-wrapper lose">
+                <h4>Sorry</h4>
+                <img src="images/sad.png" alt="loser">
+                <h4>You popped around <span class="score">0 </span> balloons, better luck next time</h4>
+                <p>Play again?</p>
+                <button class="restart">Yes</button>
+                <button class="cancel">No</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
